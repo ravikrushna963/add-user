@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading {
+  font-family: "Roboto";
+}
+
+.text {
+  border-radius: 5px;
+  height: 40px;
+  width: 350px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+}
+
+.label {
+  font-family: "Roboto";
+}
+
+.para {
+  color: red;
+  margin-top: 5px;
+}
+
+.button {
+  width: 150px;
+  align-self: center;
+}
+
+.result {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+  color: green;
+  align-self: center;
+  font-family: "Bree Serif";
 }
